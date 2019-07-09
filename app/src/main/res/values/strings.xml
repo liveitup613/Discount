@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">DISCOUNT CLUB</string>
+    <string name="app_logo">IBS DISCOUNT CARD</string>
+
+    <!-- Sign Up -->
+    <string name="sign_up_email">Your email ending @ibs-b.hu</string>
+    <string name="sign_up_full_name">Your full name(same as your ID)</string>
+    <string name="sign_up_password">Password</string>
+    <string name="sign_up_password_again">Password again</string>
+    <string name="sign_up_terms_privacy">I agree to the Terms and Privacy</string>
+    <string name="sign_up_register">Register</string>
+    <string name="sign_up_control">Already a member?  Log in</string>
+
+    <!-- Log in -->
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_remember_me">Remember me</string>
+    <string name="login_login">Log in</string>
+    <string name="login_control">Not a member yet? Register</string>
+    <string name="login_forgot_me">Forgot password</string>
+
+    <!-- Forgot Password -->
+    <string name="forgot_email">email ending @ibs-b.hu</string>
+    <string name="forgot_request">Request new password</string>
+</resources>

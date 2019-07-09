@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_header"
+            android:gravity="center_vertical"
+            android:background="@color/colorDarkBlue"
+            android:orientation="horizontal"
+            android:paddingHorizontal="@dimen/margin_normal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_x_large"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:text="Our policies"
+                android:textAlignment="center"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_normal"
+            android:orientation="horizontal"
+            android:paddingHorizontal="@dimen/margin_large"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_terms"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_button"
+                android:layout_weight="1"
+                android:background="@drawable/bkg_selected_terms"
+                android:text="Terms"
+                android:textSize="@dimen/text_normal"
+                android:textColor="@color/colorWhite"
+                android:gravity="center">
+
+            </TextView>
+            <TextView
+                android:id="@+id/tv_privacy"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_button"
+                android:layout_weight="1"
+                android:background="@drawable/bkg_unselected_privacy"
+                android:text="Privacy"
+                android:textSize="@dimen/text_normal"
+                android:textColor="@color/colorBlue"
+                android:gravity="center">
+
+            </TextView>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/margin_normal"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/margin_very_small">
+                <TextView
+                    android:id="@+id/tv_policy"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Gogi got out Gogi got out Gogi got out Gogi got out Gogi got out Gogi got out Gogi got out Gogi got outGogi got out"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>
